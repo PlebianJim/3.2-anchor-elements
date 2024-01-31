@@ -5,12 +5,12 @@ function handleHover(element, newText, newColor) {
     //Change the text on hover
     element.addEventListener('mouseover', () => {
         element.textContent = newText;
-        element.style.color = newColor;
+        element.style.color = 'red';
     });
     //Revert the text on mouseout
     element.addEventListener('mouseout', () => {
         element.textContent = "Hover here for solution";
-        element.style.color = "red"
+        element.style.color = 'black';
     });
 }
 
